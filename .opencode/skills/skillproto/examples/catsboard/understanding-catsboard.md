@@ -85,6 +85,7 @@ In a full wiki, the complete command syntax is documented in its own reference p
 ## Related Documentation
 
 - [Getting Started](getting-started.md)
+- [Sensors Command Reference](reference.md)
 - [Board not detected — Troubleshooting](troubleshooting.md)
 
 > Do not turn this page into a complete manual. Its purpose is to give the user context and guide them to the detailed documentation.
