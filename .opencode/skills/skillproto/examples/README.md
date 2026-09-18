@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD060 -->
+
 # Synthetic Examples
 
 > [!NOTE]
