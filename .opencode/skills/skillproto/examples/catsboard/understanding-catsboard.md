@@ -60,6 +60,8 @@ CatsBoard firmware supports configuring the collector address and the reading in
 
 The command-line tool exposes a small set of command groups:
 
+<div align="center">
+
 | Command Group | Purpose                  |
 |---------------|--------------------------|
 | `catsboard`   | Main commands for setup  |
@@ -67,11 +69,15 @@ The command-line tool exposes a small set of command groups:
 | `network`     | Configure the network    |
 | `config`      | Show and change settings |
 
+</div>
+
 In a full wiki, the complete command syntax is documented in its own reference page.
 
 ---
 
 ## Compatibility
+
+<div align="center">
 
 | Category  | Supported / Required   | Notes                   |
 |-----------|------------------------|-------------------------|
@@ -79,6 +85,8 @@ In a full wiki, the complete command syntax is documented in its own reference p
 | Firmware  | CatsBoard firmware 2.x | Or later                |
 | Software  | catsboard-cli 2.x      | Or later                |
 | OS        | Linux, macOS, Windows  | Serial drivers required |
+
+</div>
 
 ---
 

@@ -325,6 +325,22 @@ Good examples:
 
 Do not use tables to replace normal prose or long procedures.
 
+> [!IMPORTANT]
+> **All tables must be centered.** Wrap every Markdown table in a `<div align="center">` block so it renders centered on GitHub:
+
+```markdown
+<div align="center">
+
+| Heading A | Heading B |
+|-----------|-----------|
+| Value 1   | Value 2   |
+
+</div>
+```
+
+> [!NOTE]
+> Centering requires HTML with a blank line before and after the table. This is an explicit exception to the "avoid unnecessary HTML" rule in the Markdown reference, because Markdown itself does not support centering tables. `markdownlint` reports MD033 (inline HTML) for these blocks; accept the warning or disable the rule for wiki pages.
+
 ---
 
 ## 17. Images

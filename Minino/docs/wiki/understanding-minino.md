@@ -93,6 +93,8 @@ For details, see [GPS & Wardriving](feature-gps-wardriving.md).
 
 Minino exposes a command console over the USB serial connection. The console supports tab completion and helps the user configure the device and run applications.
 
+<div align="center">
+
 | Command Group        | Purpose                                                |
 |----------------------|--------------------------------------------------------|
 | System commands      | Device information, restart, and memory status         |
@@ -101,11 +103,15 @@ Minino exposes a command console over the USB serial connection. The console sup
 | UART bridge commands | Configure and use the serial bridge                    |
 | GATT commands        | Interact with Bluetooth characteristics                |
 
+</div>
+
 For complete command syntax, see [Reference](reference.md).
 
 ---
 
 ## Compatibility
+
+<div align="center">
 
 | Category  | Supported / Required                 | Notes                                           |
 |-----------|--------------------------------------|-------------------------------------------------|
@@ -113,6 +119,8 @@ For complete command syntax, see [Reference](reference.md).
 | Firmware  | Release series 1.x                   | Built with ESP-IDF 5.5.1                        |
 | Software  | ESP-IDF 5.5.1 (to build from source) | A terminal emulator is enough for ordinary use  |
 | OS        | Linux, macOS, Windows                | Serial drivers required for the USB connection  |
+
+</div>
 
 ---
 

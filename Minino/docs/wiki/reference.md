@@ -136,6 +136,8 @@ spam_delete INDEX
 
 ## UART Bridge Commands
 
+<div align="center">
+
 | Command                       | Purpose                                                            |
 |-------------------------------|--------------------------------------------------------------------|
 | `print`                       | Send text over the bridge                                          |
@@ -149,6 +151,8 @@ spam_delete INDEX
 | `uart_bridge_set_parity`      | Set the parity                                                     |
 | `uart_bridge_set_stop_bits`   | Set the stop bits                                                  |
 | `uart_bridge_set_flow_ctrl`   | Set the flow control                                               |
+
+</div>
 
 ## GATT Commands
 
@@ -171,6 +175,8 @@ Writes a value to a GATT characteristic.
 
 The Zigbee CLI is enabled from **Settings > ZB CLI**. Its prompt is `esp>`.
 
+<div align="center">
+
 | Command                                                  | Purpose                           |
 |----------------------------------------------------------|-----------------------------------|
 | `zha add <endpoint> <device_type>`                       | Create a Zigbee device model      |
@@ -186,6 +192,8 @@ The Zigbee CLI is enabled from **Settings > ZB CLI**. Its prompt is `esp>`.
 | `zdo request active_ep -d <addr>`                        | Request the active endpoints      |
 | `zdo request neighbors -d <addr>`                        | Request the neighboring devices   |
 
+</div>
+
 ### Example — Form a network and open it
 
 ```text
@@ -196,6 +204,8 @@ esp> network open -t 200
 ## OpenThread CLI Commands
 
 The OpenThread examples use the standard OpenThread CLI (`>`) from the Border Router or the end device.
+
+<div align="center">
 
 | Command                        | Purpose                            |
 |--------------------------------|------------------------------------|
@@ -209,6 +219,8 @@ The OpenThread examples use the standard OpenThread CLI (`>`) from the Border Ro
 | `udp open` / `udp bind <port>` | Open and bind a UDP socket         |
 | `udp send <ip> <port> <text>`  | Send a UDP message                 |
 | `ipaddr`                       | Show the interface addresses       |
+
+</div>
 
 ## Output / Return Values
 

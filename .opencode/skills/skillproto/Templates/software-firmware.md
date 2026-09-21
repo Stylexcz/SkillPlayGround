@@ -20,9 +20,13 @@
 
 ## Official Tools
 
+<div align="center">
+
 | Tool   | Purpose   | Status             |
 |--------|-----------|--------------------|
 | [Tool] | [Purpose] | [Current / Legacy] |
+
+</div>
 
 > Prefer currently supported Electronic Cats tools when available.
 
@@ -70,9 +74,13 @@ For long procedures, link to Getting Started or a dedicated Tutorial.
 
 ## Version Compatibility
 
+<div align="center">
+
 | Hardware Version | Software / Firmware Version | Notes   |
 |------------------|-----------------------------|---------|
 | [Version]        | [Version]                   | [Notes] |
+
+</div>
 
 ## Related Documentation
 

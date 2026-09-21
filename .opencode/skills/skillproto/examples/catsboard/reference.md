@@ -12,15 +12,23 @@ catsboard-cli sensors [COMMAND] [OPTIONS]
 
 ## Parameters
 
+<div align="center">
+
 | Parameter | Type   | Required | Description                             |
 |-----------|--------|:--------:|-----------------------------------------|
 | `sensor`  | String | Yes      | Sensor name: `temp` or `hum`            |
 
+</div>
+
 ## Options
+
+<div align="center">
 
 | Option    | Description                | Default          |
 |-----------|----------------------------|------------------|
 | `--port`  | Serial port to use         | Configured port  |
+
+</div>
 
 ## Examples
 

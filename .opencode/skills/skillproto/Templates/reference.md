@@ -12,15 +12,23 @@
 
 ## Parameters
 
+<div align="center">
+
 | Parameter     | Type   | Required | Description   |
 |---------------|--------|---------:|---------------|
 | `[parameter]` | [Type] | Yes/No   | [Description] |
 
+</div>
+
 ## Options
+
+<div align="center">
 
 | Option     | Description   | Default   |
 |------------|---------------|-----------|
 | `[option]` | [Description] | [Default] |
+
+</div>
 
 ## Examples
 

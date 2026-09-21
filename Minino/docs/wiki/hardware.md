@@ -12,6 +12,8 @@ The board contains the EPS32-C6 module on the main side, a USB-C connector, a mi
 
 ## Main Components
 
+<div align="center">
+
 | Component                | Function                       | Notes                                    |
 |--------------------------|--------------------------------|------------------------------------------|
 | ESP32-C6-WROOM-1U-N8     | Main microcontroller and radio | 2.4 GHz Wi-Fi 6, BLE 5, IEEE 802.15.4    |
@@ -23,7 +25,11 @@ The board contains the EPS32-C6 module on the main side, a USB-C connector, a mi
 | Buzzer                   | Sound output                   | Application alerts and feedback          |
 | LEDs                     | Light indicators               | Status and alerts                        |
 
+</div>
+
 ## Specifications
+
+<div align="center">
 
 | Parameter         | Value                                   | Description                                     |
 |-------------------|-----------------------------------------|-------------------------------------------------|
@@ -38,9 +44,13 @@ The board contains the EPS32-C6 module on the main side, a USB-C connector, a mi
 | Antenna           | U.FL connector                          | External antenna required                       |
 | Buttons           | ON, UP, DOWN, LEFT, RIGHT, RESET, GPIO  | Menu navigation and control                     |
 
+</div>
+
 ## Pinout
 
 The board exposes connections for power, I2C, UART, and storage. The exact GPIO assignments are defined in the design schematic.
+
+<div align="center">
 
 | Interface           | Purpose                | Notes                    |
 |---------------------|------------------------|--------------------------|
@@ -49,6 +59,8 @@ The board exposes connections for power, I2C, UART, and storage. The exact GPIO 
 | Battery header (J3) | 3 x AAA battery holder | Power input              |
 | microSD slot (J5)   | Storage                | Card detect included     |
 | USB-C (P1)          | USB 2.0                | Power and serial console |
+
+</div>
 
 ## Interfaces and Connectors
 
@@ -70,6 +82,8 @@ The U.FL connector allows an external antenna to be attached. The antenna is req
 
 ## Indicators and Controls
 
+<div align="center">
+
 | Element              | Type                        | Function                      |
 |----------------------|-----------------------------|-------------------------------|
 | ON button            | Tactile switch              | Power control                 |
@@ -79,6 +93,8 @@ The U.FL connector allows an external antenna to be attached. The antenna is req
 | GPIO button          | Tactile switch              | User-assignable input         |
 | LEDs                 | Green light-emitting diodes | Status indication             |
 | Buzzer               | Electromagnetic             | Audible alerts                |
+
+</div>
 
 ## Power
 

@@ -6,6 +6,8 @@ The entry point is [Understanding Minino](understanding-minino.md). It gives a h
 
 ## Page Map
 
+<div align="center">
+
 | Page                                            | Purpose                                                       |
 |-------------------------------------------------|---------------------------------------------------------------|
 | [Understanding Minino](understanding-minino.md) | High-level overview and navigation entry point                |
@@ -22,6 +24,8 @@ The entry point is [Understanding Minino](understanding-minino.md). It gives a h
 | [Troubleshooting](troubleshooting.md)           | Common problems and their solutions                           |
 | [FAQ](faq.md)                                   | Frequent questions and short answers                          |
 | [Resources](resources.md)                       | Official repository, hardware files, and technical references |
+
+</div>
 
 ## Related Documentation
 

@@ -11,6 +11,8 @@ The important distinction is between:
 
 ## Templates
 
+<div align="center">
+
 | Template                   | Purpose                                            |
 |----------------------------|----------------------------------------------------|
 | `understanding-product.md` | General product context and navigation             |
@@ -23,6 +25,8 @@ The important distinction is between:
 | `troubleshooting.md`       | Resolution of a concrete problem                   |
 | `faq.md`                   | Concise answers to frequent questions              |
 | `resources.md`             | Directly relevant external/internal resources      |
+
+</div>
 
 ## General rule
 

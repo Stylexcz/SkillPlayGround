@@ -11,12 +11,16 @@ The examples show what a completed wiki page looks like when `skillproto` applie
 
 ## Page Map
 
+<div align="center">
+
 | Example page                           | Template                             | What it demonstrates                                           |
 |----------------------------------------|--------------------------------------|----------------------------------------------------------------|
 | `catsboard/understanding-catsboard.md` | `Templates/understanding-product.md` | Entry page: high-level overview, features, CLI and compatibility tables, section links.                                                                                                             |
 | `catsboard/getting-started.md`         |  `Templates/getting-started.md`      | First successful result: requirements, numbered steps, commands with expected output, expected result.                                                                                                                                          |
 | `catsboard/troubleshooting.md` | `Templates/troubleshooting.md` | Problem resolution: symptoms, likely causes, solution steps, verification. |
 | `catsboard/reference.md` | `Templates/reference.md` | Lookup reference: syntax, parameters, options, examples with `### Expected Output`, return values. |
+
+</div>
 
 ## Differences from a Real Wiki
 

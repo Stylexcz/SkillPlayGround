@@ -12,21 +12,33 @@
 
 ## Main Components
 
+<div align="center">
+
 | Component   | Function   | Notes   |
 |-------------|------------|---------|
 | [Component] | [Function] | [Notes] |
 
+</div>
+
 ## Specifications
+
+<div align="center">
 
 | Parameter   | Value   | Description   |
 |-------------|---------|---------------|
 | [Parameter] | [Value] | [Description] |
 
+</div>
+
 ## Pinout
+
+<div align="center">
 
 | Pin   | Function   | Description   |
 |-------|------------|---------------|
 | [Pin] | [Function] | [Description] |
+
+</div>
 
 ## Interfaces and Connectors
 
@@ -36,9 +48,13 @@
 
 ## Indicators and Controls
 
+<div align="center">
+
 | Element        | Type   | Function   |
 |----------------|--------|------------|
 | [LED / Button] | [Type] | [Function] |
+
+</div>
 
 ## Power
 

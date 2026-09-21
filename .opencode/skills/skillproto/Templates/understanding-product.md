@@ -65,9 +65,13 @@ For detailed documentation, see the corresponding feature pages.
 
 [Briefly explain the CLI/TUI and what the user can accomplish with it.]
 
+<div align="center">
+
 | Command Group | Purpose         |
 |---------------|-----------------|
 | [Group]       | [Short purpose] |
+
+</div>
 
 For complete command syntax, see [Reference](...).
 
@@ -77,12 +81,16 @@ For complete command syntax, see [Reference](...).
 
 [Summarize important compatibility information only.]
 
+<div align="center">
+
 | Category  | Supported / Required | Notes   |
 |-----------|----------------------|---------|
 | Hardware  | [Version]            | [Notes] |
 | Firmware  | [Version]            | [Notes] |
 | Software  | [Version]            | [Notes] |
 | OS        | [OS]                 | [Notes] |
+
+</div>
 
 ---
 

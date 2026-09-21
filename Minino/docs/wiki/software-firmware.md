@@ -23,11 +23,15 @@ Minino runs firmware based on the ESP-IDF development framework. The firmware pr
 
 ## Official Tools
 
+<div align="center">
+
 | Tool      | Purpose                                                             | Status  |
 |-----------|---------------------------------------------------------------------|---------|
 | ESP-IDF   | Official Espressif development framework used to build the firmware | Current |
 | Make      | Build automation for the provided commands                          | Current |
 | `esptool` | Flash the firmware over USB                                         | Current |
+
+</div>
 
 > Prefer currently supported tools when available.
 
@@ -83,6 +87,8 @@ Connect the device and flash the release using the address table for the build t
 
 #### Firmware with OTA
 
+<div align="center">
+
 | Flash Address | File                   |
 |---------------|------------------------|
 | `0x0`         | `bootloader.bin`       |
@@ -90,17 +96,23 @@ Connect the device and flash the release using the address table for the build t
 | `0x15000`     | `ota_data_initial.bin` |
 | `0xa0000`     | `minino.bin`           |
 
+</div>
+
 ```bash
 python -m esptool --chip esp32c6 -b 460800 --before default_reset --after hard_reset write_flash --flash_mode dio --flash_size 8MB --flash_freq 80m 0x0 bootloader.bin 0x8000 partition-table.bin 0x15000 ota_data_initial.bin 0xa0000 minino.bin
 ```
 
 #### Firmware without OTA
 
+<div align="center">
+
 | Flash Address | File                  |
 |---------------|-----------------------|
 | `0x0`         | `bootloader.bin`      |
 | `0x8000`      | `partition-table.bin` |
 | `0x20000`     | `minino.bin`          |
+
+</div>
 
 ```bash
 python -m esptool --chip esp32c6 -b 460800 --before default_reset --after hard_reset write_flash --flash_mode dio --flash_size 8MB --flash_freq 80m 0x0 bootloader.bin 0x8000 partition-table.bin 0x20000 minino.bin
@@ -118,11 +130,15 @@ The device can update its own firmware over the air from the About menu (`OTA Fi
 
 ## Version Compatibility
 
+<div align="center">
+
 | Hardware Version     | Software / Firmware Version | Notes                      |
 |----------------------|-----------------------------|----------------------------|
 | ESP32-C6-WROOM-1U-N8 | Firmware release series 1.x | Built with ESP-IDF 5.5.1   |
 | Flash 8 MB variant   | OTA-capable builds          | Required for OTA updates   |
 | Other flash sizes    | Builds without OTA          | Use the no-OTA flash table |
+
+</div>
 
 ## Related Documentation
 
