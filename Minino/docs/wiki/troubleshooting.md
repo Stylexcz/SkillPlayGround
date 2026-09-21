@@ -153,5 +153,3 @@ The build completes and produces the firmware binaries as described in [Software
 - [Getting Started](getting-started.md)
 - [Software & Firmware](software-firmware.md)
 - [FAQ](faq.md)
-
-> Troubleshooting starts from an observable symptom and ends with a verifiable resolution.

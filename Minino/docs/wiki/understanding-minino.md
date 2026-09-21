@@ -1,8 +1,5 @@
 # Understanding Minino
 
-> This page is the high-level entry point for the product.
-> Keep detailed procedures and large references in specialized pages.
-
 ## Overview
 
 ### What is Minino?
@@ -139,5 +136,3 @@ For complete command syntax, see [Reference](reference.md).
 - [Troubleshooting](troubleshooting.md)
 - [FAQ](faq.md)
 - [Resources](resources.md)
-
-> Do not turn this page into a complete manual. Its purpose is to give the user context and guide them to the detailed documentation.

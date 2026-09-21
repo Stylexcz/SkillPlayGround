@@ -240,5 +240,3 @@ The OpenThread examples use the standard OpenThread CLI (`>`) from the Border Ro
 - [Tutorial](tutorial.md)
 - [Troubleshooting](troubleshooting.md)
 - [Understanding Minino](understanding-minino.md)
-
-> Use this page for lookup information. Detailed teaching sequences belong in Tutorials.

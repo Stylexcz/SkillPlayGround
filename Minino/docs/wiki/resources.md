@@ -48,5 +48,3 @@
 - [Getting Started](getting-started.md)
 - [Reference](reference.md)
 - [Troubleshooting](troubleshooting.md)
-
-> Include only resources directly relevant to the product.

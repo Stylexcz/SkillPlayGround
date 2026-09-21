@@ -88,5 +88,3 @@ The sniffer displays the captured Zigbee frames, and wardriving writes geotagged
 - [Thread / OpenThread](feature-thread.md)
 - [Troubleshooting](troubleshooting.md)
 - [Understanding Minino](understanding-minino.md)
-
-> Keep this page focused on understanding and using the feature. Move long task-oriented procedures to Tutorials.

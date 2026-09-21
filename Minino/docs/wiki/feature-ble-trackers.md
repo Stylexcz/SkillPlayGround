@@ -75,5 +75,3 @@ The scanner lists the supported trackers in range and keeps their signal strengt
 - [Reference](reference.md)
 - [Understanding Minino](understanding-minino.md)
 - [Troubleshooting](troubleshooting.md)
-
-> Keep this page focused on understanding and using the feature. Move long task-oriented procedures to Tutorials.

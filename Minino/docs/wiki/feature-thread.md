@@ -77,5 +77,3 @@ The sniffer displays captured Thread frames, and the broadcast application sends
 - [Reference](reference.md)
 - [Troubleshooting](troubleshooting.md)
 - [Understanding Minino](understanding-minino.md)
-
-> Keep this page focused on understanding and using the feature. Move long task-oriented procedures to Tutorials.

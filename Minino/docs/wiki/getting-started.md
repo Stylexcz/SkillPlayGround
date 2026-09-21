@@ -110,5 +110,3 @@ The board powers on, shows its menu on the OLED display, and the serial console 
 - [Reference](reference.md) — learn the console commands
 - [Tutorial](tutorial.md) — a complete step-by-step procedure
 - [Understanding Minino](understanding-minino.md) — product overview
-
-> Keep this page focused on the first successful result. Move advanced workflows to specialized pages.

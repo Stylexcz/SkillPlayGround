@@ -100,5 +100,3 @@ The CSV file contains one row per detected access point: the MAC address, SSID, 
 - [Wi-Fi Security](feature-wifi.md)
 - [Reference](reference.md)
 - [Troubleshooting](troubleshooting.md)
-
-> Keep one tutorial focused on one clear task or outcome.

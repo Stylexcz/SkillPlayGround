@@ -120,5 +120,3 @@ The selected application runs on the OLED display. Wardriving and captures write
 - [Reference](reference.md)
 - [Tutorial](tutorial.md)
 - [Troubleshooting](troubleshooting.md)
-
-> Keep this page focused on understanding and using the feature. Move long task-oriented procedures to Tutorials.

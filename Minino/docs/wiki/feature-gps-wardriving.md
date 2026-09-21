@@ -95,5 +95,3 @@ The microSD card contains a CSV log with one row per detected access point, each
 - [Tutorial](tutorial.md)
 - [Reference](reference.md)
 - [Understanding Minino](understanding-minino.md)
-
-> Keep this page focused on understanding and using the feature. Move long task-oriented procedures to Tutorials.

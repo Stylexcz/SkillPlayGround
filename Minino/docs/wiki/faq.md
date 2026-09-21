@@ -68,5 +68,3 @@ Light sleep mode is available; deep sleep mode is planned.
 - [Understanding Minino](understanding-minino.md)
 - [Reference](reference.md)
 - [Troubleshooting](troubleshooting.md)
-
-> Keep FAQ answers concise. Move long procedures to the appropriate specialized page.
