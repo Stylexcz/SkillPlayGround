@@ -1,0 +1,12 @@
+# Only documentation and READMEs from the Minino mirror are tracked in SkillPlayGround.
+# Upstream source code and large assets stay out of this repository.
+/Minino/.clang-format
+/Minino/.github/
+/Minino/.pre-commit-config.yaml
+/Minino/LICENSE
+/Minino/case/
+/Minino/change
+/Minino/firmware/*
+!/Minino/firmware/README.md
+/Minino/hardware/
+/Minino/tools/
