@@ -74,4 +74,4 @@ Expected output:
 - [Related feature](...)
 - [Related reference](...)
 
-> Keep one tutorial focused on one clear task or outcome.
+<!-- Writer note (do not include in the output): keep one tutorial focused on one clear task or outcome. -->

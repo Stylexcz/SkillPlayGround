@@ -34,6 +34,6 @@ Do not duplicate complete information between the product overview and specializ
 
 The overview should answer:
 
-> What is this product, what does it contain, what can it do, and where do I find the detailed documentation?
+<!-- Writer note (do not include in the output): what is this product, what does it contain, what can it do, and where do I find the detailed documentation? -->
 
 Specialized pages should answer the detailed questions.

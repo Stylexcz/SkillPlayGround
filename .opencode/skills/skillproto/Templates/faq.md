@@ -37,4 +37,4 @@
 - [Reference](...)
 - [Troubleshooting](...)
 
-> Keep FAQ answers concise. Move long procedures to the appropriate specialized page.
+<!-- Writer note (do not include in the output): keep FAQ answers concise. Move long procedures to the appropriate specialized page. -->

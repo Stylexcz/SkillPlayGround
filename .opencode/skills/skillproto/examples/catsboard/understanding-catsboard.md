@@ -1,7 +1,6 @@
 # Understanding CatsBoard
 
-> This page is the high-level entry point for the product.
-> Keep detailed procedures and large references in specialized pages.
+<!-- Writer note (do not include in the output): this page is the high-level entry point for the product. Keep detailed procedures and large references in specialized pages. -->
 
 ## Overview
 
@@ -96,4 +95,4 @@ In a full wiki, the complete command syntax is documented in its own reference p
 - [Sensors Command Reference](reference.md)
 - [Board not detected — Troubleshooting](troubleshooting.md)
 
-> Do not turn this page into a complete manual. Its purpose is to give the user context and guide them to the detailed documentation.
+<!-- Writer note (do not include in the output): do not turn this page into a complete manual. Its purpose is to give the user context and guide them to the detailed documentation. -->

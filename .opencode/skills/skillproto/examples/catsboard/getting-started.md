@@ -113,4 +113,4 @@ The board is detected, and `catsboard-cli sensors read temp` returns a temperatu
 - [Sensors Command Reference](reference.md)
 - [Board not detected — Troubleshooting](troubleshooting.md)
 
-> Keep this page focused on the first successful result. Move advanced workflows to specialized pages.
+<!-- Writer note (do not include in the output): keep this page focused on the first successful result. Move advanced workflows to specialized pages. -->

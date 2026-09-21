@@ -28,7 +28,7 @@
 
 </div>
 
-> Prefer currently supported Electronic Cats tools when available.
+<!-- Writer note (do not include in the output): prefer currently supported Electronic Cats tools when available. -->
 
 ## Software
 

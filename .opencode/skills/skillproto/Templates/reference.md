@@ -64,4 +64,4 @@
 - [Tutorial](...)
 - [Troubleshooting](...)
 
-> Use this page for lookup information. Detailed teaching sequences belong in Tutorials.
+<!-- Writer note (do not include in the output): this page is for lookup information. Detailed teaching sequences belong in Tutorials. -->

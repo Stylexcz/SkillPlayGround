@@ -41,4 +41,4 @@
 - [Reference](...)
 - [Troubleshooting](...)
 
-> Include only resources directly relevant to the product.
+<!-- Writer note (do not include in the output): include only resources directly relevant to the product. -->

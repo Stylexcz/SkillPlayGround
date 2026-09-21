@@ -73,4 +73,4 @@ Firmware version: 2.3.0
 - [Understanding CatsBoard](understanding-catsboard.md)
 - [Getting Started](getting-started.md)
 
-> Troubleshooting starts from an observable symptom and ends with a verifiable resolution.
+<!-- Writer note (do not include in the output): troubleshooting starts from an observable symptom and ends with a verifiable resolution. -->

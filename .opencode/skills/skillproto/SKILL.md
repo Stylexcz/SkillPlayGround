@@ -32,7 +32,8 @@ The output may include:
 6. Generate the Markdown content.
 7. Apply the Markdown and style rules.
 8. Check the document for consistency and missing information; compare it with the matching example in `examples/`.
-9. Save the final Markdown.
+9. Run `checks/no-template-notes.sh` on every generated page. Fix and re-run until it passes. Writer notes inside templates are only guidance and must never be copied into the output.
+10. Save the final Markdown.
 
 ## References
 

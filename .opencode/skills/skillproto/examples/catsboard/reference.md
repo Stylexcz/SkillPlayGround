@@ -69,4 +69,4 @@ Every command returns `0` on success and `1` on error. Commands print a status m
 - [Understanding CatsBoard](understanding-catsboard.md)
 - [Getting Started](getting-started.md)
 
-> Use this page for lookup information. Detailed teaching sequences belong in Tutorials.
+<!-- Writer note (do not include in the output): this page is for lookup information. Detailed teaching sequences belong in Tutorials. -->

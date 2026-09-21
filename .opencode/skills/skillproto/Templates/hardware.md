@@ -60,8 +60,7 @@
 
 [Voltage, current, connector, polarity, and other relevant electrical requirements.]
 
-> [!WARNING]
-> [Only include when there is a real risk of hardware damage.]
+<!-- Writer note (do not include in the output): add a [!WARNING] alert here only when there is a real risk of hardware damage. -->
 
 ## Schematics
 
