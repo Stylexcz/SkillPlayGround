@@ -30,7 +30,7 @@ covering these page types:
 
 | Template file                        | Page type                             |
 |--------------------------------------|---------------------------------------|
-| `Templates/README.md`                | Wiki index / landing page             |
+| `Templates/wiki-index.md`            | Wiki index / landing page             |
 | `Templates/understanding-product.md` | Understanding a product (wiki home)   |
 | `Templates/getting-started.md`       | Getting started / first use           |
 | `Templates/tutorial.md`              | Step-by-step tutorial                 |
@@ -41,6 +41,7 @@ covering these page types:
 | `Templates/troubleshooting.md`       | Common problems and fixes             |
 | `Templates/faq.md`                   | Frequently asked questions            |
 | `Templates/resources.md`             | External resources and links          |
+| `Templates/sidebar.md`               | Sidebar navigation (`_Sidebar.md`)    |
 
 Reference documents the skill must follow before generating:
 
@@ -52,7 +53,14 @@ Reference documents the skill must follow before generating:
 
 The `.markdownlint.json` config keeps the generated pages compatible with
 [markdownlint-cli](https://github.com/DavidAnson/markdownlint-cli):
-line length and trailing punctuation are relaxed to match the house style.
+line length and trailing punctuation are relaxed to match the house style,
+and inline HTML (`MD033`) is allowed for centered tables.
+
+`checks/` contains validation scripts run during generation:
+`no-template-notes.sh` catches writer notes that leaked into the output, and
+`structure.sh` verifies page structure (single H1, Related Documentation,
+resolvable links, balanced code blocks, centered tables) and validates
+`_Sidebar.md` links.
 
 `examples/` contains a fictional worked example (CatsBoard) that shows the
 expected output for selected page types; the examples are for reference only

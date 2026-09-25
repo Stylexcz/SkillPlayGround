@@ -32,7 +32,7 @@ The output may include:
 6. Generate the Markdown content.
 7. Apply the Markdown and style rules.
 8. Check the document for consistency and missing information; compare it with the matching example in `examples/`.
-9. Run `checks/no-template-notes.sh` on every generated page. Fix and re-run until it passes. Writer notes inside templates are only guidance and must never be copied into the output.
+9. Run `checks/no-template-notes.sh` and `checks/structure.sh` on every generated page. Fix and re-run until they pass. Writer notes inside templates are only guidance and must never be copied into the output. Verify the checks still work by running `checks/no-template-notes.sh --self-test` (it scans the skill's own `Templates/` directory) and `checks/structure.sh` on a known-good wiki.
 10. Save the final Markdown.
 
 ## References
@@ -59,7 +59,10 @@ Select the template that matches the page type:
 | Troubleshooting    | `Templates/troubleshooting.md`              |
 | FAQ                | `Templates/faq.md`                          |
 | Resources          | `Templates/resources.md`                    |
-| Wiki index         | `Templates/README.md`                       |
+| Wiki index         | `Templates/wiki-index.md`                   |
+| Sidebar            | `Templates/sidebar.md`                      |
+
+The `Sidebar` template output is saved as `_Sidebar.md` and is required in every wiki. It is a GitHub Wiki navigation column, not a content page.
 
 Worked examples for selected page types are in `examples/`. Use them as reference output when generating.
 
